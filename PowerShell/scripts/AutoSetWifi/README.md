@@ -65,7 +65,7 @@ Usage:
 
 Version history:
 - 2022-01-19 : [Version 1.2](AutoSetWifi_v1.2.ps1)
-   - Multilingual function applied
+   - Multilingual message applied
    <br><br>
 - 2022-01-18 : Version 1.1
    - Application of service exception handling: If there is no WLAN service in the running window, an exception is applied\
