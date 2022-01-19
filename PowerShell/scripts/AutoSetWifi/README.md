@@ -15,22 +15,22 @@ Note:
 
 Usage:
 1. **Execute with parameters**
-   * PowerShell : `PS> .\AutoSetWifi_v1.2.ps1 -ssid Smart-Office-5.0Ghz -password 1234567890`
-   * Command : `> powershell .\AutoSetWifi_v1.2.ps1 -ssid Smart-Office-5.0Ghz -password 1234567890`
+   * PowerShell
    ```PowerShell
    PS> .\AutoSetWifi_v1.2.ps1 -ssid Smart-Office-5.0Ghz -password 1234567890
-   Wi-Fi 인터페이스에 Smart-Office-5.0Ghz 프로필이 추가되었습니다.
-   연결 요청을 완료했습니다.
+   ```
+   * cmd
+   ```cmd
+   > powershell .\AutoSetWifi_v1.2.ps1 -ssid Smart-Office-5.0Ghz -password 1234567890
    ```
 2. **Execute without parameters**
-   * PowerShell : `PS> .\AutoSetWifi_v1.2.ps1`
-   * Command : `> powershell .\AutoSetWifi_v1.2.ps1`
+   * PowerShell
    ```PowerShell
    PS> .\AutoSetWifi_v1.2.ps1
-   연결할 SSID를 입력하세요: Smart-Office-5.0Ghz
-   SSID 암호를 입력하세요: 1234567890
-   Wi-Fi 인터페이스에 Smart-Office-5.0Ghz 프로필이 추가되었습니다.
-   연결 요청을 완료했습니다.
+   ```
+   * cmd
+   ```cmd
+   > powershell .\AutoSetWifi_v1.2.ps1
    ```
 3. When can't connect to SSID
    ```PowerShell
