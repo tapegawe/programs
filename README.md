@@ -1,1 +1,1 @@
-### A collection of programs that I recently developed by myself
+### A collection of programs recently developed by myself
