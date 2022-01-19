@@ -1,4 +1,4 @@
-# Automatic Wi-Fi setting 
+# Automatic Wi-Fi setting for Windows 10+
 # A simple script running on Windows PowerShell
 
 ### Lastest Version 1.2 on 2022-01-19
@@ -10,6 +10,7 @@ Note:
 2. Without manually setup Wi-Fi settings through many steps by clicking and typing in Windows, you can do it with one line command.
 3. This script must be executed with administrator privileges because it controls the Windows service.
 4. This file must be saved in "UTF8-BOM" encoding format for Korean to be displayed properly.
+5. This script tested on Windows 10, 11.
 
 ---
 
