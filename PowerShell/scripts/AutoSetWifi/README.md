@@ -16,24 +16,24 @@ Note:
 Usage:
 1. **Execute with parameters**
    * PowerShell
-   ```PowerShell
+   ```
    PS> .\AutoSetWifi_v1.2.ps1 -ssid Smart-Office-5.0Ghz -password 1234567890
    ```
    * cmd
-   ```cmd
+   ```
    > powershell .\AutoSetWifi_v1.2.ps1 -ssid Smart-Office-5.0Ghz -password 1234567890
    ```
 2. **Execute without parameters**
    * PowerShell
-   ```PowerShell
+   ```
    PS> .\AutoSetWifi_v1.2.ps1
    ```
    * cmd
-   ```cmd
+   ```
    > powershell .\AutoSetWifi_v1.2.ps1
    ```
 3. When can't connect to SSID
-   ```PowerShell
+   ```
    PS> .\AutoSetWifi_v1.2.ps1
    연결할 SSID를 입력하세요: test_ssid
    SSID 암호를 입력하세요: 1234567890
@@ -47,13 +47,13 @@ Usage:
    연결에 문제가 발생하였습니다. 다시 시도하시겠습니까? [y/n]: n
    ```
 4. If not exist the wireless service
-   ```PowerShell
+   ```
    PS> .\AutoSetWifi_v1.2.ps1
    무선랜 관련 설정을 위한 'wlansvc' 서비스가 존재하지 않습니다. 무선랜 관련 설정을 완료할 수 없습니다.
    계속하려면 <Enter> 키를 누르십시오.:
    ```
 5. If not entered any SSID
-   ```PowerShell
+   ```
    PS> .\AutoSetWifi_v1.2.ps1
    연결할 SSID를 입력하세요:
    SSID 암호를 입력하세요:
