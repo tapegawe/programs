@@ -9,7 +9,7 @@ Note:
 ---
 
 Usage:
-* **Execute with parameters**
+* **How to execute**
    * PowerShell
    ```
    .\NetAdapterPowerSaveTurnOff.ps1 -ExecutionPolicy Bypass
