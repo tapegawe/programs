@@ -21,4 +21,4 @@ Usage:
 
 History:
 - 2022-01-20 : [Version 1.0](NetAdapterPowerSaveTurnOff.ps1)
-   - First public
+   - First public release
