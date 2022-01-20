@@ -34,33 +34,27 @@ Usage:
    powershell -ExecutionPolicy Bypass -File .\AutoSetWifi_v1.2.ps1
    ```
 3. When can't connect to SSID
-   ```
-   PS> .\AutoSetWifi_v1.2.ps1
-   Enter a SSID to connect: test_ssid
-   Enter the passphrase: 1234567890
-   Profile test_ssid is added on interface Wi-Fi.
-   Unable to connect to network specified in profile "test_ssid".
-   There was a problem with the connection. Would you like to try again? [y/n]: y
-   Enter a SSID to connect: test_ssid2
-   Enter the passphrase: 1234567890
-   Profile test_ssid2 is added on interface Wi-Fi.
-   Unable to connect to network specified in profile "test_ssid2".
-   There was a problem with the connection. Would you like to try again? [y/n]: n
-   ```
+   > PS> .\AutoSetWifi_v1.2.ps1\
+   > Enter a SSID to connect: test_ssid\
+   > Enter the passphrase: 1234567890\
+   > Profile test_ssid is added on interface Wi-Fi.\
+   > Unable to connect to network specified in profile "test_ssid".\
+   > There was a problem with the connection. Would you like to try again? [y/n]: y\
+   > Enter a SSID to connect: test_ssid2\
+   > Enter the passphrase: 1234567890\
+   > Profile test_ssid2 is added on interface Wi-Fi.\
+   > Unable to connect to network specified in profile "test_ssid2".\
+   > There was a problem with the connection. Would you like to try again? [y/n]: n
 4. If not exist the wireless service
-   ```
-   PS> .\AutoSetWifi_v1.2.ps1
-   The 'wlansvc' service used for wireless network does not exist. This program can't continue to setup.
-   Press Enter to continue...:
-   ```
+   > PS> .\AutoSetWifi_v1.2.ps1\
+   > The 'wlansvc' service used for wireless network does not exist. This program can't continue to setup.\
+   > Press Enter to continue...:
 5. If not entered any SSID
-   ```
-   PS> .\AutoSetWifi_v1.2.ps1
-   Enter a SSID to connect:
-   Enter the passphrase:
-   There is no SSID entered, the setup is terminated.
-   Press Enter to continue...:
-   ```
+   > PS> .\AutoSetWifi_v1.2.ps1\
+   > Enter a SSID to connect:\
+   > Enter the passphrase:\
+   > There is no SSID entered, the setup is terminated.\
+   > Press Enter to continue...:
 
 ---
 
