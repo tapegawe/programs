@@ -1,5 +1,5 @@
 # Automatic Wi-Fi setting for Windows 10+
-### A simple script running on Windows PowerShell
+## A simple script running on Windows PowerShell
 
 ### Lastest Version 1.2 on 2022-01-19
 
