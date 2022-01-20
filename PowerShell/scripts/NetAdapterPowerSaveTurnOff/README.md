@@ -2,7 +2,7 @@
 ## A simple script for Windows 10+
 
 Note:
-1. This script works to batch change the settings so that the connected network adapters in Windows do not enter sleep mode.
+1. This script works to batch **SAFE** change the settings so that the connected network adapters do not enter sleep mode in Windows.
 2. This script must be run with administrator privileges because it changes system settings.
 5. This script was tested on Windows 10, 11.
 
