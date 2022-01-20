@@ -1,5 +1,5 @@
 # Turn Off Power Saving Function of All Network Adapters
-## A simple script for Windows 10+
+## A simple script running on PowerShell in Windows 10+
 
 Note:
 1. This script works to batch **SAFE** change the settings so that the connected network adapters do not enter sleep mode in Windows.
