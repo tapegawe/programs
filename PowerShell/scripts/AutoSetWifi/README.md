@@ -18,48 +18,48 @@ Usage:
 1. **Execute with parameters**
    * PowerShell
    ```
-   PS> .\AutoSetWifi_v1.2.ps1 -ssid Smart-Office-5.0Ghz -password 1234567890
+   .\AutoSetWifi_v1.2.ps1 -ExecutionPolicy Bypass -ssid Smart-Office-5.0Ghz -password 1234567890
    ```
    * cmd
    ```
-   > powershell .\AutoSetWifi_v1.2.ps1 -ssid Smart-Office-5.0Ghz -password 1234567890
+   powershell -ExecutionPolicy Bypass -File .\AutoSetWifi_v1.2.ps1 -ssid Smart-Office-5.0Ghz -password 1234567890
    ```
 2. **Execute without parameters**
    * PowerShell
    ```
-   PS> .\AutoSetWifi_v1.2.ps1
+   .\AutoSetWifi_v1.2.ps1 -ExecutionPolicy Bypass
    ```
    * cmd
    ```
-   > powershell .\AutoSetWifi_v1.2.ps1
+   powershell -ExecutionPolicy Bypass -File .\AutoSetWifi_v1.2.ps1
    ```
 3. When can't connect to SSID
    ```
    PS> .\AutoSetWifi_v1.2.ps1
-   연결할 SSID를 입력하세요: test_ssid
-   SSID 암호를 입력하세요: 1234567890
-   Wi-Fi 인터페이스에 test_ssid 프로필이 추가되었습니다.
-   "test_ssid" 프로필에 지정된 네트워크에 연결할 수 없습니다.
-   연결에 문제가 발생하였습니다. 다시 시도하시겠습니까? [y/n]: y
-   연결할 SSID를 입력하세요: test_ssid2
-   SSID 암호를 입력하세요: 1234567890
-   Wi-Fi 인터페이스에 test_ssid2 프로필이 추가되었습니다.
-   "test_ssid2" 프로필에 지정된 네트워크에 연결할 수 없습니다.
-   연결에 문제가 발생하였습니다. 다시 시도하시겠습니까? [y/n]: n
+   Enter a SSID to connect: test_ssid
+   Enter the passphrase: 1234567890
+   Profile test_ssid is added on interface Wi-Fi.
+   Unable to connect to network specified in profile "test_ssid".
+   There was a problem with the connection. Would you like to try again? [y/n]: y
+   Enter a SSID to connect: test_ssid2
+   Enter the passphrase: 1234567890
+   Profile test_ssid2 is added on interface Wi-Fi.
+   Unable to connect to network specified in profile "test_ssid2".
+   There was a problem with the connection. Would you like to try again? [y/n]: n
    ```
 4. If not exist the wireless service
    ```
    PS> .\AutoSetWifi_v1.2.ps1
-   무선랜 관련 설정을 위한 'wlansvc' 서비스가 존재하지 않습니다. 무선랜 관련 설정을 완료할 수 없습니다.
-   계속하려면 <Enter> 키를 누르십시오.:
+   The 'wlansvc' service used for wireless network does not exist. This program can't continue to setup.
+   Press Enter to continue...:
    ```
 5. If not entered any SSID
    ```
    PS> .\AutoSetWifi_v1.2.ps1
-   연결할 SSID를 입력하세요:
-   SSID 암호를 입력하세요:
-   입력된 SSID가 없어서 설정을 종료합니다.
-   계속하려면 <Enter> 키를 누르십시오.:
+   Enter a SSID to connect:
+   Enter the passphrase:
+   There is no SSID entered, the setup is terminated.
+   Press Enter to continue...:
    ```
 
 ---
