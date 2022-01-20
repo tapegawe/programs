@@ -1,5 +1,6 @@
 # Automatic Wi-Fi setting
 # A simple script running on Windows PowerShell
+# Copyright (c) 2022. Byungho Park(bhobak@gmail.com).
 #
 #
 # NOTE:
@@ -9,7 +10,7 @@
 #
 #
 # Version 1.2
-# Last modified on 2022-01-18
+# Last modified on 2022-01-19
 # Written by Byungho Park
 
 
