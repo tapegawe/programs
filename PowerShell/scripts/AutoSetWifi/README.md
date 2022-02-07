@@ -7,7 +7,7 @@
 
 Note:
 1. This script can be run on both of Windows PowerShell and PowerShell v7 series.
-2. Without manually setup Wi-Fi settings through many steps by clicking and typing in Windows, you can do it with one line command.
+2. You can do the Wi-Fi settings with one line command using this without manually setup through many steps by clicking and typing in Windows.
 3. This script must be executed with administrator privileges because it controls the Windows service.
 4. This file must be saved in "UTF8-BOM" encoding format for Korean to be displayed properly.
 5. This script was tested on Windows 10, 11.
